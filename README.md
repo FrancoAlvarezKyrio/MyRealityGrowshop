@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9baa85eb-7dc5-46a6-8cc8-13bb2c9764be/deploy-status)](https://app.netlify.com/sites/myrealitygrowshop/deploys)
 # ***My Reality Grow***
 My Reality Grow es un proyecto creado para la venta de manera online de insumos para cultivo de todo tipo de plantas en sus dos etapas, vegetación y flora, también da detalles de cada producto, su funcionalidad y su forma de aplicación.
 ## ***Tecnologías usadas***
@@ -31,4 +32,4 @@ My Reality Grow es un proyecto creado para la venta de manera online de insumos 
  ```git push```
 
 # ***Link al sitio web***
- [MyRealityGrow](https://gifted-boyd-aadd37.netlify.app/)
+ [MyRealityGrowshop](https://myrealitygrowshop.netlify.app/)
