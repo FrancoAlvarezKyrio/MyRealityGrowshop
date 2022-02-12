@@ -1,0 +1,580 @@
+// MOBILE IPHONE SE 
+//Nav
+#navBarDiv{
+    background-color: rgb(81, 233, 89);
+    max-width: 375px;
+    border-style: double;
+    border-color: rgb(12, 134, 18);
+    font-family: Roboto;
+}
+#navTitle{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+}
+#navHome{
+    text-decoration: none;
+    color: white;
+}
+#navContact{
+    text-decoration: none;
+    color: white;
+}
+#basic-nav-dropdown{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;
+}
+#navCats{
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgb(81, 233, 89);
+    font-size: 17px;
+    text-decoration: none;
+    justify-content: center;
+}
+#navToggle{
+    color: rgb(81, 233, 89);
+    border-color: rgb(81, 233, 89);
+}
+.imagenLogo{
+    width: 70px;
+    height: 30px;
+    margin: 0%;
+}
+#cartWidget {
+color: rgb(255, 255, 255);
+    width: 20px !important;
+}
+#badge {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(81, 233, 89);
+    width: 15px !important;
+    height: 15px !important;
+    font-size: 10px;
+}
+#cartWidgetDetail {
+    color: rgb(81, 233, 89);
+    width: 40px !important;
+}
+#badgeDetail {
+    background-color: rgb(81, 233, 89) !important;
+    color: rgb(255, 255, 255);
+    width: 30px !important;
+    height: 25px !important;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#signInButton{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    color: rgb(81, 233, 89);
+    margin-left: 122px;
+    margin-right: 75px;
+}
+#signInButton:hover{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(245, 240, 240);
+    border-color: rgb(245, 240, 240);
+    color: rgb(81, 233, 89);
+}
+#logOutButton{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    color: rgb(81, 233, 89);
+    margin-left: 125px;
+}
+#logOutButton:hover{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(245, 240, 240);
+    border-color: rgb(245, 240, 240);
+    color: rgb(81, 233, 89);
+}
+//Profile
+#profileDiv{
+    color: white;
+    margin-left: 10px;
+    img{
+        width: 50px;
+        height: 50px;
+        margin-left: 140px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    h2{
+        margin-left: 80px;
+    }
+    p{
+        margin-left: 40px;
+    }
+}
+//Banner 
+#bannerImg{
+    height: 180px;
+    margin-bottom: 25px;
+}
+//Loader
+#loader {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+//Item
+#itemDiv {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 32px;
+    font-family: Roboto;
+        img{
+            height: 300px;
+            width: 250px;
+            margin-left: 20px;
+        }
+        button {
+        width: 100%;
+        background-color: rgb(81, 233, 89);
+        border-color: rgb(81, 233, 89) ;
+        }
+        button:hover {
+            background-color: rgb(10, 151, 17) ;
+            border-color: rgb(10, 151, 17);
+        }
+        p{
+            font-size: 25px;
+        }
+}
+//Item detail
+#divItemDetail{
+    font-family: Roboto;
+    img{
+        width: 250px;
+        margin-left: 50px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+#colItemDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    font-family: Roboto;
+}
+.countDiv {
+    display: flex;
+    margin-bottom: 70px;
+    font-family: Roboto;
+    p{
+        margin-top: 20px;
+    }
+    button{
+        border-radius: 5px;
+        margin: 5px;
+        color: white;
+        border-color: white;
+    }
+}
+.priceDetail{
+    font-family: Roboto;
+    margin-left: 30px;
+}
+//Item detail buttons
+#addButton{
+    background-color: rgb(66, 94, 219);
+}
+#decreaseButton{
+    background-color: red;
+}
+#addToCartButton{
+    background-color: rgb(81, 233, 89);
+    width: 200px;
+}
+//Cart
+#cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cartText{
+    text-align: center;
+    font-family: Roboto;
+}
+#cartItem{
+    font-family: Roboto;
+    img{
+    width: 80px;
+    height: 100px;
+    }
+    button{
+    margin-left: 133px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+}
+#row{
+    display: flex;
+    align-items: center;
+}
+#totalCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+    margin-top: 50px;
+    border-color: red;
+    button{
+       margin-top: 25px;
+       margin-bottom: 70px;
+       background-color: rgb(81, 233, 89) ;
+       border-color: rgb(81, 233, 89) ;
+       width: 100%;
+    }
+    button:hover{
+        background-color: rgb(10, 151, 17) ;
+        border-color: rgb(81, 233, 89) ;
+
+    }
+}
+.clearCartButton{
+    width: 100px !important;
+    margin-left: 10px;
+    background-color: skyblue !important;
+    border-color: skyblue !important;
+    margin-bottom: 50px !important;
+} 
+//Order
+#divOrder{
+    display: flex;
+    margin-bottom: 220px;
+    font-size: 28px;
+    box-shadow: 1px 1px 5px 1px;
+}
+//Contact
+#bannerContact{
+    margin-bottom: 50px;
+    }
+//Footer
+#footer {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// MEDIA QUERIE PC MIN-WIDTH 1280px
+@media screen and (min-width: 1280px) {
+//Nav
+    #navBarDiv{
+        background-color: rgb(81, 233, 89);
+        max-width: 100%;
+        font-family:  Roboto;
+    }
+    #navTitle{
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+        font-family: Roboto;
+    }
+    #navHome{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family:  Roboto;
+    }
+    #navContact{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    #basic-nav-dropdown{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    #navToggle{
+        color: rgb(81, 233, 89);
+        border-color: rgb(81, 233, 89);
+    }
+    #navTitle:hover{
+        font-size: 30px;
+        text-decoration: none;
+        color: rgb(226, 224, 224);
+        font-family: Roboto;
+    }
+    #navHome:hover{
+        text-decoration: none;
+        color: rgb(226, 224, 224);
+        font-size: 20px;
+        font-family:  Roboto;
+    }
+    #navContact:hover{
+        text-decoration: none;
+        color: rgb(226, 224, 224);
+        font-size: 20px;
+    }
+    #basic-nav-dropdown:hover{
+        color: rgb(226, 224, 224);
+        font-size: 20px;
+    }
+    #navToggle:hover{
+        border-color: rgb(81, 233, 89);
+        color: rgb(226, 224, 224);
+    }
+    .imagenLogo{
+        width: 250px;
+        height: 100px;
+    } 
+    #divCartWidget{
+        display: flex;
+        color: white;
+    }
+    #cartWidget{
+        color: white;
+    }
+    #cartWidget:hover {
+        color: rgb(230, 225, 225);
+    }
+    #badge {
+        background-color: rgb(255, 255, 255) !important;
+        color: rgb(81, 233, 89);
+        font-size: 8px;
+        width: 13px !important;
+        height: 13px !important;
+        text-decoration: none !important;
+    }
+    #badge:hover {
+        background-color: rgb(240, 236, 236)!important;
+        color: rgb(81, 233, 89);
+    }
+    #signInButton{
+        width: 80px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: white;
+        border-color: white;
+        color: rgb(81, 233, 89);
+        margin-left: 170px;
+    }
+    #signInButton:hover{
+        width: 80px;
+        border-radius: 5px;
+        background-color: rgb(245, 240, 240);
+        border-color: rgb(245, 240, 240);
+        color: rgb(81, 233, 89);
+    }
+    #logOutButton{
+        width: 80px;
+        font-size: 10px;
+        border-radius: 5px;
+        background-color: white;
+        border-color: white;
+        color: rgb(81, 233, 89);
+        margin-left: 245px;
+        margin-bottom: 30px;
+    }
+    #logOutButton:hover{
+        width: 80px;
+        border-radius: 5px;
+        background-color: rgb(245, 240, 240);
+        border-color: rgb(245, 240, 240);
+        color: rgb(81, 233, 89);
+    }
+//Profile
+    #profileDiv{
+        color: white;
+        margin-left: 130px;
+
+        img{
+            width: 30px;
+            height: 30px;
+            margin-left: 140px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        h2{
+            margin-left: 100px;
+            font-size: 15px;
+        }
+        p{
+            margin-left: 70px;
+            font-size: 10px;
+        }
+    }
+//Banner 
+    #bannerImg{
+        height: 400px;
+        margin-bottom: 25px;
+    }
+//Item
+    #itemDiv {
+        display: inline-block;
+        max-width: 300px;
+        font-family:  Roboto;
+            img{
+                height: 300px;
+                width: 250px;
+                margin-left: 20px;
+            }
+            button {
+            width: 100%;
+            background-color: rgb(81, 233, 89);
+            border-color: rgb(81, 233, 89) ;
+            }
+            button:hover {
+                background-color: rgb(10, 151, 17) ;
+                border-color: rgb(10, 151, 17);
+            }
+            p{
+                font-size: 35px;
+            }
+    }
+//Item detail
+
+    #divItemDetail{
+        font-family:  Roboto;
+        img{
+            height: 500px;
+            width: 500px;
+        }
+        h1{
+            font-size: 45px;
+            margin-bottom: 35px;
+        }
+        h3{
+            font-size: 35px;
+            margin-top: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        button{
+            margin: 15px;
+            padding: 10px;
+            color: white;
+        }
+    }
+    #colItemDetail{
+        font-family:  Roboto;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .countDiv {
+        display: flex;
+        margin-bottom: 70px;
+        p{
+            font-size: 30px !important;
+            margin-top: 60px;
+        }
+        button{
+            border-radius: 5px;
+            font-size: 30px !important;
+            margin-top: 50px !important;
+        }
+    }
+// Item detail buttons
+    #addButton{
+        background-color: rgb(66, 94, 219);
+        
+    }
+    #decreaseButton{
+        background-color: red;
+    }
+    #addToCartButton{
+        background-color: rgb(81, 233, 89);
+        width: 200px;
+    }
+//Cart 
+    #cart {
+        display: flex;
+        flex-direction: column;
+    }
+    #cartText{
+        font-family:  Roboto;
+        text-align: center;
+        margin-top: 100px;
+    }
+    #cartItem{
+        font-family:  Roboto;
+        max-width: 700px;
+        img{
+        width: 200px;
+        height: 200px;
+        }
+        button{
+        margin-left: 190px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 300px;
+        font-size: 20px;
+        }
+    }
+    #row{
+        font-size: 30px;
+    }
+    #totalCart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family:  Roboto;
+        button{
+        background-color: rgb(81, 233, 89) ;
+        border-color: rgb(81, 233, 89) ;
+        width: 100%;
+        }
+        button:hover{
+        background-color: rgb(10, 151, 17) ;
+        border-color: rgb(81, 233, 89) ;
+        }
+    }
+    .totalItemsText{
+        font-size: 20px;
+    }
+    .totalPriceText{
+        font-size: 25px;
+    }
+    .totalTitleText{
+        font-size: 35px;
+    }
+    .clearCartButton{
+        width: 250px !important;
+        background-color: skyblue !important;
+        border-color: skyblue !important;
+        margin-bottom: 50px !important;
+    }
+    //Order
+    #divOrder{
+        display: flex;
+        margin-bottom: 220px;
+        font-size: 50px !important;
+        box-shadow: 1px 1px 5px 1px;
+    }
+    //Contact
+    #bannerContact{
+    margin-bottom: 50px;
+    }
+    //Footer
+    #footer{
+        margin-top: 30px;
+        color: white;
+        background-color: rgb(81, 233, 89);
+    }
+    #bannerFooterImg{
+        height: 300px;
+    }
+
+}
+
